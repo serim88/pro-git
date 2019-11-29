@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int sum(int x, int y){
+    return (x+y)
+}
+
 int fib(int n)
 {
   if (n == 0) return 0;
@@ -11,5 +15,6 @@ int main()
 {
   printf("Hello world!\n");
   printf("%d\n", fib(5));
+  printf("%d\n",sum(1,2));
   return 0;
 }
